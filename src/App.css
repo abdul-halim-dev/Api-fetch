@@ -1,0 +1,108 @@
+ 
+
+
+ form{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ 
+ }
+
+ .wrapper{
+   width: 100%;
+   padding: 30px;
+   background-color: rgb(9, 9, 10);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 1rem;
+ }
+
+ 
+.card{
+   width: 24%;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   border-radius: 8px;
+   padding-bottom: 20px;
+   background-color: #2d2c2c;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.image_box{
+   width: 100%;
+   height:200px;
+   position: relative;
+}
+
+.image_box img{
+   width: 100%;
+   height:100%;
+   object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.passed{
+   padding: 5px 10px;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   color: white;
+   border-radius: 6px;
+   font-size: 16px;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+.text-part{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+}
+.text-part p{
+   color: rgb(232, 228, 228);
+   font-size: 18px;
+   font-weight: normal;
+   line-height: 22px;
+   text-align: justify;
+}
+.text-part h3{
+   color: rgb(247, 243, 242);
+   font-size: 28px;
+   font-weight: bold;
+   border-bottom: 2px solid rgb(211, 211, 211);
+   text-align: justify;
+}
+
+.btn_box{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0px 10px;
+}
+.btn_box button{
+   outline: none;
+   cursor: pointer;
+   background-color: #0066b2;
+   color: white;
+   border: none;
+   width: 90%;
+   padding: 6px 0px;
+   border-radius: 8px;
+   font-size: 14px;
+   font-weight: 400;
+   text-transform: uppercase;
+   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+   transition: all 0.2s linear;
+}
+.btn_box button:hover{
+   background-color: #0a43df;
+}
+
+
+
+  
